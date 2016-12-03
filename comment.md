@@ -2,9 +2,9 @@
 
 ## 基本功能
 ```
-要接入服务的大环境 WeiXin
-└─┬ 要接入服务的直接环境 GitChat
-  └─┬ 接入评论系统的页面 CommentSystem
+服务环境 WeiXin
+└─┬ 要接入服务的公众号 GitChat
+  └─┬ 接入评论系统的页面 Article
     ├─┬ 从页面获得文章id
     │ ├── 读取(fetch / query)文章评论信息 包括各字段
     │
